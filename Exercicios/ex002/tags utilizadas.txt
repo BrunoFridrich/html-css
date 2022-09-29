@@ -1,0 +1,9 @@
+para colocar "<" ">" sem criar uma tag use "&lt;" "&gt;" = <p> 
+
+<p> = novo parágrafo
+
+hr = linha preta
+
+h1 = titulo
+
+br = "quebra o texto" usar a linha de baixo

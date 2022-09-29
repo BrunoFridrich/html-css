@@ -1,0 +1,5 @@
+capativel
+
+chrome = ogv, mp4, m4v e webm
+firefox = ogv, webm
+opera = ogv, webm

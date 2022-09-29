@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+@font-face {
+    font-family: 'super mario';
+    src: url('SuperMario256.ttf') format('truetype');
+}
+
+body {
+    background-color: #77EDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #77EDDD, #d4fff3);
+    height: 100%;
+}
+
+h1 {
+    color: #30615A;
+    font-family: 'Smooch', Arial, Helvetica, sans-serif;
+}
+
+h1#principal /* não pode usar o mesmo id para duas tag mesmo que sejam tags iguais (regra da w3c)
+ex: dois h1 usando a id "principal" 
+então usar a tag class(html) (essa tag pode ser usada várias vezes) que é representada com o "." no css */ {
+    text-align: center;
+    background-color: #50A196;
+    color: white;
+    font-family: 'super mario', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #4D998F;
+}
+
+.basico {
+    color: #4D998F;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #8e994d;
+}
+
+.avancado {
+    color: #6b4646;
+}
+
+.destaque {
+    background-color: rgba(182, 23, 23, 0.623);
+}
+
+div > p {
+    display: block;
+    color: red;
+    background-color: black;
+    width: 200px;
+}
+
+div :hover{
+    color: red;
+}
