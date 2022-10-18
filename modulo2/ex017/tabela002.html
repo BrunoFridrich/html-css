@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -28,8 +29,23 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
         }
 
         td.num {
@@ -173,5 +189,16 @@
             <td class="num"><strong>210.147.125</strong></td>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto error temporibus est. Deleniti et cupiditate rem iste ex, corporis nostrum dolorum aliquid similique, ducimus enim, eligendi quidem nobis. Ipsam, autem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora quasi, aut eum animi fuga excepturi quod, nihil ipsa, maxime impedit. Atque cumque eum esse laudantium illum, commodi consequatur in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima eveniet quas iusto adipisci, possimus placeat? Nihil qui dicta, odio debitis eos, nisi quisquam omnis asperiores quibusdam quod eligendi expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet explicabo quod porro consectetur nam deleniti labore provident magni fuga dicta. Rem neque ad possimus quas magnam molestiae sunt earum cupiditate?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto error temporibus est. Deleniti et cupiditate rem iste ex, corporis nostrum dolorum aliquid similique, ducimus enim, eligendi quidem nobis. Ipsam, autem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora quasi, aut eum animi fuga excepturi quod, nihil ipsa, maxime impedit. Atque cumque eum esse laudantium illum, commodi consequatur in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima eveniet quas iusto adipisci, possimus placeat? Nihil qui dicta, odio debitis eos, nisi quisquam omnis asperiores quibusdam quod eligendi expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet explicabo quod porro consectetur nam deleniti labore provident magni fuga dicta. Rem neque ad possimus quas magnam molestiae sunt earum cupiditate?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto error temporibus est. Deleniti et cupiditate rem iste ex, corporis nostrum dolorum aliquid similique, ducimus enim, eligendi quidem nobis. Ipsam, autem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora quasi, aut eum animi fuga excepturi quod, nihil ipsa, maxime impedit. Atque cumque eum esse laudantium illum, commodi consequatur in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima eveniet quas iusto adipisci, possimus placeat? Nihil qui dicta, odio debitis eos, nisi quisquam omnis asperiores quibusdam quod eligendi expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet explicabo quod porro consectetur nam deleniti labore provident magni fuga dicta. Rem neque ad possimus quas magnam molestiae sunt earum cupiditate?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto error temporibus est. Deleniti et cupiditate rem iste ex, corporis nostrum dolorum aliquid similique, ducimus enim, eligendi quidem nobis. Ipsam, autem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora quasi, aut eum animi fuga excepturi quod, nihil ipsa, maxime impedit. Atque cumque eum esse laudantium illum, commodi consequatur in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima eveniet quas iusto adipisci, possimus placeat? Nihil qui dicta, odio debitis eos, nisi quisquam omnis asperiores quibusdam quod eligendi expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet explicabo quod porro consectetur nam deleniti labore provident magni fuga dicta. Rem neque ad possimus quas magnam molestiae sunt earum cupiditate?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto error temporibus est. Deleniti et cupiditate rem iste ex, corporis nostrum dolorum aliquid similique, ducimus enim, eligendi quidem nobis. Ipsam, autem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora quasi, aut eum animi fuga excepturi quod, nihil ipsa, maxime impedit. Atque cumque eum esse laudantium illum, commodi consequatur in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima eveniet quas iusto adipisci, possimus placeat? Nihil qui dicta, odio debitis eos, nisi quisquam omnis asperiores quibusdam quod eligendi expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet explicabo quod porro consectetur nam deleniti labore provident magni fuga dicta. Rem neque ad possimus quas magnam molestiae sunt earum cupiditate?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto error temporibus est. Deleniti et cupiditate rem iste ex, corporis nostrum dolorum aliquid similique, ducimus enim, eligendi quidem nobis. Ipsam, autem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora quasi, aut eum animi fuga excepturi quod, nihil ipsa, maxime impedit. Atque cumque eum esse laudantium illum, commodi consequatur in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima eveniet quas iusto adipisci, possimus placeat? Nihil qui dicta, odio debitis eos, nisi quisquam omnis asperiores quibusdam quod eligendi expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet explicabo quod porro consectetur nam deleniti labore provident magni fuga dicta. Rem neque ad possimus quas magnam molestiae sunt earum cupiditate?</p>
 </body>
 </html>
